@@ -1,7 +1,4 @@
-version: 2.1
-
-orbs:
-  codecov: "codecov/codecov@1.0.4"
+version: 2
 
 jobs:
   release:
@@ -22,8 +19,10 @@ jobs:
     - run: "mv coverage.html /tmp/artifacts"
     - store_artifacts:
         path: "/tmp/artifacts"
-    - codecov/upload:
-        file: "c.out"
+    - run:
+        name: Upload Coverage Results
+        command: |
+          bash <(curl -s https://codecov.io/bash) -f c.out  -n ${CIRCLE_BUILD_NUM} -t ${CODECOV_TOKEN} -y .codecov.yml
 
 workflows:
   version: 2
