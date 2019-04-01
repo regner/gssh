@@ -44,6 +44,26 @@ func TestHelperProjects(t *testing.T) {
 	os.Exit(0)
 }
 
+func TestFilterProjects(t *testing.T) {
+	projects := []projectDetails{
+		projectDetails{ProjectID: "project-one"},
+		projectDetails{ProjectID: "project-two"},
+		projectDetails{ProjectID: "project-three"},
+	}
+
+	filtered := filterProjects(projects, "one")
+
+	expectedProjects := []projectDetails{
+		projectDetails{ProjectID: "project-one"},
+	}
+
+	assert.Equal(t, filtered, expectedProjects)
+
+	filtered = filterProjects(projects, "project")
+
+	assert.Equal(t, filtered, projects)
+}
+
 // func TestFilterProjects(t *testing.T) {
 // 	projects :=
 // }
