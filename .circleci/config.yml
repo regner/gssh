@@ -1,0 +1,40 @@
+version: 2
+
+orbs:
+  codecov: "codecov/codecov@1.0.4"
+
+jobs:
+  release:
+    docker:
+    - image: "circleci/golang:1.12"
+    steps:
+    - checkout
+    - run: "curl -sL https://git.io/goreleaser | bash"
+  test:
+    docker:
+    - image: "circleci/golang:1.12"
+    steps:
+    - checkout
+    - run: "go mod download"
+    - run: "mkdir -p /tmp/artifacts"
+    - run: "go test -coverprofile=c.out"
+    - run: "go tool cover -html=c.out -o coverage.html"
+    - run: "mv coverage.html /tmp/artifacts"
+    - store_artifacts:
+        path: "/tmp/artifacts"
+    - codecov/upload:
+        file: "c.out"
+
+workflows:
+  version: 2
+  build_test_release:
+    jobs:
+    - test
+    - release:
+        requires:
+        - "test"
+        filters:
+          branches:
+            only: "master"
+          tags:
+            only: "/v[0-9]+(\\.[0-9]+)*(-.*)*/"
