@@ -82,8 +82,6 @@ func main() {
 	cmd.Stdout = os.Stdout
 	cmd.Stdin = os.Stdin
 	cmd.Run()
-
-	// TODO: Add tests
 }
 
 func buildGcloudArgs(selectedVM vmDetails, selectedProject projectDetails) (args []string) {
