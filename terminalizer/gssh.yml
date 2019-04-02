@@ -18,7 +18,7 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 140
+  cols: 110
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
@@ -111,177 +111,177 @@ config:
 
 # Records, feel free to edit them
 records:
-  - delay: 90
+  - delay: 80
     content: "\e[?1034hregners-macbook:~ regner$ "
-  - delay: 90
+  - delay: 80
     content: '#'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: g
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: u
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: w
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: g
-  - delay: 90
+  - delay: 80
     content: u
-  - delay: 90
+  - delay: 80
     content: m
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: w
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: m
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: f
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: j
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: v
-  - delay: 90
+  - delay: 80
     content: m
   - delay: 1282
     content: "\r\nregners-macbook:~ regner$ "
-  - delay: 90
+  - delay: 80
     content: g
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: h
   - delay: 300
     content: "\r\n"
@@ -307,319 +307,319 @@ records:
     content: 'regners-macbook:~ regner$ '
   - delay: 1389
     content: '#'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: g
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: v
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: f
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: f
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: j
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: d
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: "\b\e[K"
-  - delay: 90
+  - delay: 80
     content: /
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: v
-  - delay: 90
+  - delay: 80
     content: m
   - delay: 535
     content: "\r\nregners-macbook:~ regner$ "
   - delay: 1344
     content: '#'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: f
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: f
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: r
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: u
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: 'y'
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: 'n'
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: m
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: m
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: t
-  - delay: 90
+  - delay: 80
     content: c
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: w
-  - delay: 90
+  - delay: 80
     content: i
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: u
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: e
-  - delay: 90
+  - delay: 80
     content: d
   - delay: 1490
     content: "\r\nregners-macbook:~ regner$ "
   - delay: 1219
     content: g
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: s
-  - delay: 90
+  - delay: 80
     content: h
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: '-'
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: g
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: o
-  - delay: 90
+  - delay: 80
     content: b
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: l
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: '-'
-  - delay: 90
+  - delay: 80
     content: m
-  - delay: 90
+  - delay: 80
     content: ' '
-  - delay: 90
+  - delay: 80
     content: a
-  - delay: 90
+  - delay: 80
     content: p
-  - delay: 90
+  - delay: 80
     content: p
   - delay: 406
     content: "\r\n"
