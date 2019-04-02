@@ -57,13 +57,39 @@ func TestFilterProjects(t *testing.T) {
 		projectDetails{ProjectID: "project-one"},
 	}
 
-	assert.Equal(t, filtered, expectedProjects)
+	assert.Equal(t, expectedProjects, filtered)
 
 	filtered = filterProjects(projects, "project")
 
-	assert.Equal(t, filtered, projects)
+	assert.Equal(t, projects, filtered)
 }
 
-// func TestFilterProjects(t *testing.T) {
-// 	projects :=
-// }
+func TestProjectDetailsToSurver(t *testing.T) {
+	projects := []projectDetails{
+		projectDetails{ProjectID: "project-one"},
+		projectDetails{ProjectID: "project-two"},
+		projectDetails{ProjectID: "project-three"},
+	}
+
+	response := projectDetailsToSurvey(projects)
+
+	expected := []string{
+		"project-one",
+		"project-two",
+		"project-three",
+	}
+
+	assert.Equal(t, expected, response)
+}
+
+func TestStringToProjectDetails(t *testing.T) {
+	project := "herp-derp-project-one"
+
+	response := stringToProjectDetails(project)
+
+	expected := projectDetails{
+		ProjectID: "herp-derp-project-one",
+	}
+
+	assert.Equal(t, expected, response)
+}
