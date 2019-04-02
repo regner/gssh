@@ -3,6 +3,9 @@
 gssh is meant to make using the gcloud ssh command easier by eliminating the need to
 know the complete name of a given VM and it's zone.
 
+gssh was built for my needs specifically which is why flags such as `--tunnel-through-iap`
+are enabled by default. No reason that cannot change if others have an opinion.
+
 ## Badges
 
 [![CircleCI](https://img.shields.io/circleci/project/github/regner/gssh.svg?style=for-the-badge)](https://circleci.com/gh/regner/gssh)
