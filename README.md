@@ -23,3 +23,4 @@ releases from the [releases](https://github.com/regner/gssh/releases/latest) pag
 * [ ] Add release to brew
 * [ ] Add test coverage for vms.go
 * [ ] Add test coverage for main.go
+* [ ] Improve filtering
