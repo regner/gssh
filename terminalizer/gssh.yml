@@ -1,0 +1,639 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: ~
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 170
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 35
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 12
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 500
+    content: "\e[?1034hregners-macbook:~ regner$ "
+  - delay: 904
+    content: '#'
+  - delay: 280
+    content: ' '
+  - delay: 336
+    content: g
+  - delay: 448
+    content: s
+  - delay: 193
+    content: s
+  - delay: 311
+    content: h
+  - delay: 247
+    content: ' '
+  - delay: 338
+    content: c
+  - delay: 104
+    content: a
+  - delay: 127
+    content: 'n'
+  - delay: 167
+    content: ' '
+  - delay: 177
+    content: b
+  - delay: 384
+    content: e
+  - delay: 232
+    content: ' '
+  - delay: 256
+    content: u
+  - delay: 120
+    content: s
+  - delay: 88
+    content: e
+  - delay: 232
+    content: d
+  - delay: 224
+    content: ' '
+  - delay: 224
+    content: w
+  - delay: 129
+    content: i
+  - delay: 126
+    content: t
+  - delay: 94
+    content: h
+  - delay: 235
+    content: ' '
+  - delay: 224
+    content: 'n'
+  - delay: 72
+    content: o
+  - delay: 192
+    content: ' '
+  - delay: 99
+    content: a
+  - delay: 68
+    content: r
+  - delay: 175
+    content: g
+  - delay: 105
+    content: u
+  - delay: 210
+    content: m
+  - delay: 126
+    content: e
+  - delay: 118
+    content: 'n'
+  - delay: 89
+    content: t
+  - delay: 81
+    content: s
+  - delay: 160
+    content: ' '
+  - delay: 80
+    content: a
+  - delay: 135
+    content: 'n'
+  - delay: 33
+    content: d
+  - delay: 153
+    content: ' '
+  - delay: 79
+    content: w
+  - delay: 112
+    content: i
+  - delay: 208
+    content: l
+  - delay: 145
+    content: l
+  - delay: 131
+    content: ' '
+  - delay: 204
+    content: p
+  - delay: 185
+    content: r
+  - delay: 151
+    content: o
+  - delay: 77
+    content: m
+  - delay: 118
+    content: p
+  - delay: 179
+    content: t
+  - delay: 315
+    content: ' '
+  - delay: 406
+    content: f
+  - delay: 160
+    content: o
+  - delay: 121
+    content: r
+  - delay: 119
+    content: ' '
+  - delay: 122
+    content: b
+  - delay: 87
+    content: o
+  - delay: 151
+    content: t
+  - delay: 81
+    content: h
+  - delay: 182
+    content: ' '
+  - delay: 115
+    content: t
+  - delay: 79
+    content: h
+  - delay: 95
+    content: e
+  - delay: 104
+    content: ' '
+  - delay: 144
+    content: p
+  - delay: 98
+    content: r
+  - delay: 123
+    content: o
+  - delay: 53
+    content: j
+  - delay: 101
+    content: e
+  - delay: 65
+    content: c
+  - delay: 209
+    content: t
+  - delay: 120
+    content: ' '
+  - delay: 151
+    content: a
+  - delay: 129
+    content: 'n'
+  - delay: 77
+    content: d
+  - delay: 139
+    content: ' '
+  - delay: 640
+    content: v
+  - delay: 167
+    content: m
+  - delay: 465
+    content: "\r\nregners-macbook:~ regner$ "
+  - delay: 560
+    content: g
+  - delay: 312
+    content: s
+  - delay: 152
+    content: s
+  - delay: 211
+    content: h
+  - delay: 300
+    content: "\r\n"
+  - delay: 982
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mSelect your project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> super-secret-vault-project\e[0m\r\n\e[1;99m  silly-global-project-ids\e[0m\r\n\e[1;99m  some-other-project\e[0m\r\n\e[?25l"
+  - delay: 1260
+    content: "\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;99m  super-secret-vault-project\e[0m\r\n\e[1;36m> silly-global-project-ids\e[0m\r\n\e[1;99m  some-other-project\e[0m\r\n"
+  - delay: 1270
+    content: "\e[?25h\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your project:\e[0m\e[36m silly-global-project-ids\e[0m\r\n"
+  - delay: 1693
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mSelect your VM:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> (us-central1-c) proxy-uscentral-a8s7\e[0m\r\n\e[1;99m  (us-east1-b) app-useast-19kz\e[0m\r\n\e[1;99m  (us-east1-b) app-useast-ao71\e[0m\r\n\e[1;99m  (us-west2-a) something-something-something\e[0m\r\n\e[?25l"
+  - delay: 1506
+    content: "\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your VM:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;99m  (us-central1-c) proxy-uscentral-a8s7\e[0m\r\n\e[1;36m> (us-east1-b) app-useast-19kz\e[0m\r\n\e[1;99m  (us-east1-b) app-useast-ao71\e[0m\r\n\e[1;99m  (us-west2-a) something-something-something\e[0m\r\n"
+  - delay: 1238
+    content: "\e[?25h\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your VM:\e[0m\e[36m (us-east1-b) app-useast-19kz\e[0m\r\nUsing silly-global-project-ids as selected project.\r\nUsing app-useast-19kz as selected VM in zone us-east1-b.\r\n"
+  - delay: 3381
+    content: "Linux app-useast-19kz 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64\r\n\r\nThe programs included with the Debian GNU/Linux system are free software;\r\nthe exact distribution terms for each program are described in the\r\nindividual files in /usr/share/doc/*/copyright.\r\n"
+  - delay: 33
+    content: "\r\nDebian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent\r\npermitted by applicable law.\r\nLast login: Tue Apr  2 03:12:06 2019 from 35.235.240.0\r\r\n\e]0;regner@app-useast-19kz: ~\a\e[01;32mregner@app-useast-19kz\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 1893
+    content: "logout\r\nConnection to compute.8316295205482360324 closed.\r\r\n"
+  - delay: 87
+    content: 'regners-macbook:~ regner$ '
+  - delay: 1389
+    content: '#'
+  - delay: 349
+    content: ' '
+  - delay: 176
+    content: g
+  - delay: 312
+    content: s
+  - delay: 168
+    content: s
+  - delay: 215
+    content: h
+  - delay: 286
+    content: ' '
+  - delay: 298
+    content: c
+  - delay: 121
+    content: a
+  - delay: 78
+    content: 'n'
+  - delay: 177
+    content: ' '
+  - delay: 102
+    content: a
+  - delay: 104
+    content: l
+  - delay: 127
+    content: s
+  - delay: 90
+    content: o
+  - delay: 160
+    content: ' '
+  - delay: 96
+    content: b
+  - delay: 105
+    content: e
+  - delay: 101
+    content: ' '
+  - delay: 210
+    content: p
+  - delay: 121
+    content: r
+  - delay: 117
+    content: o
+  - delay: 1393
+    content: v
+  - delay: 135
+    content: i
+  - delay: 131
+    content: d
+  - delay: 176
+    content: e
+  - delay: 184
+    content: d
+  - delay: 111
+    content: ' '
+  - delay: 432
+    content: f
+  - delay: 121
+    content: i
+  - delay: 111
+    content: l
+  - delay: 39
+    content: t
+  - delay: 127
+    content: e
+  - delay: 90
+    content: r
+  - delay: 96
+    content: s
+  - delay: 174
+    content: ' '
+  - delay: 120
+    content: f
+  - delay: 179
+    content: o
+  - delay: 134
+    content: r
+  - delay: 201
+    content: ' '
+  - delay: 367
+    content: b
+  - delay: 117
+    content: o
+  - delay: 172
+    content: t
+  - delay: 120
+    content: h
+  - delay: 184
+    content: ' '
+  - delay: 70
+    content: t
+  - delay: 104
+    content: h
+  - delay: 98
+    content: e
+  - delay: 113
+    content: ' '
+  - delay: 193
+    content: p
+  - delay: 115
+    content: r
+  - delay: 186
+    content: o
+  - delay: 881
+    content: j
+  - delay: 184
+    content: e
+  - delay: 79
+    content: c
+  - delay: 216
+    content: t
+  - delay: 104
+    content: ' '
+  - delay: 97
+    content: a
+  - delay: 128
+    content: 'n'
+  - delay: 64
+    content: d
+  - delay: 168
+    content: ' '
+  - delay: 685
+    content: "\b\e[K"
+  - delay: 238
+    content: /
+  - delay: 483
+    content: o
+  - delay: 102
+    content: r
+  - delay: 404
+    content: ' '
+  - delay: 1031
+    content: t
+  - delay: 86
+    content: h
+  - delay: 171
+    content: e
+  - delay: 93
+    content: ' '
+  - delay: 275
+    content: v
+  - delay: 111
+    content: m
+  - delay: 535
+    content: "\r\nregners-macbook:~ regner$ "
+  - delay: 1344
+    content: '#'
+  - delay: 215
+    content: ' '
+  - delay: 195
+    content: i
+  - delay: 14
+    content: f
+  - delay: 221
+    content: ' '
+  - delay: 314
+    content: a
+  - delay: 151
+    content: ' '
+  - delay: 178
+    content: f
+  - delay: 136
+    content: i
+  - delay: 80
+    content: l
+  - delay: 104
+    content: t
+  - delay: 136
+    content: e
+  - delay: 64
+    content: r
+  - delay: 78
+    content: ' '
+  - delay: 162
+    content: r
+  - delay: 112
+    content: e
+  - delay: 64
+    content: s
+  - delay: 153
+    content: u
+  - delay: 76
+    content: l
+  - delay: 75
+    content: t
+  - delay: 41
+    content: s
+  - delay: 125
+    content: ' '
+  - delay: 145
+    content: i
+  - delay: 64
+    content: 'n'
+  - delay: 168
+    content: ' '
+  - delay: 159
+    content: o
+  - delay: 72
+    content: 'n'
+  - delay: 151
+    content: l
+  - delay: 138
+    content: 'y'
+  - delay: 276
+    content: ' '
+  - delay: 468
+    content: o
+  - delay: 79
+    content: 'n'
+  - delay: 735
+    content: e
+  - delay: 184
+    content: ' '
+  - delay: 202
+    content: m
+  - delay: 65
+    content: a
+  - delay: 93
+    content: t
+  - delay: 242
+    content: c
+  - delay: 244
+    content: h
+  - delay: 314
+    content: ' '
+  - delay: 446
+    content: t
+  - delay: 116
+    content: h
+  - delay: 48
+    content: a
+  - delay: 62
+    content: t
+  - delay: 122
+    content: ' '
+  - delay: 424
+    content: m
+  - delay: 100
+    content: a
+  - delay: 68
+    content: t
+  - delay: 199
+    content: c
+  - delay: 130
+    content: h
+  - delay: 215
+    content: ' '
+  - delay: 80
+    content: w
+  - delay: 115
+    content: i
+  - delay: 197
+    content: l
+  - delay: 135
+    content: l
+  - delay: 159
+    content: ' '
+  - delay: 197
+    content: b
+  - delay: 103
+    content: e
+  - delay: 134
+    content: ' '
+  - delay: 189
+    content: u
+  - delay: 120
+    content: s
+  - delay: 58
+    content: e
+  - delay: 224
+    content: d
+  - delay: 1490
+    content: "\r\nregners-macbook:~ regner$ "
+  - delay: 1219
+    content: g
+  - delay: 236
+    content: s
+  - delay: 156
+    content: s
+  - delay: 191
+    content: h
+  - delay: 209
+    content: ' '
+  - delay: 324
+    content: '-'
+  - delay: 299
+    content: p
+  - delay: 226
+    content: ' '
+  - delay: 510
+    content: g
+  - delay: 97
+    content: l
+  - delay: 177
+    content: o
+  - delay: 143
+    content: b
+  - delay: 112
+    content: a
+  - delay: 168
+    content: l
+  - delay: 571
+    content: ' '
+  - delay: 396
+    content: '-'
+  - delay: 384
+    content: m
+  - delay: 258
+    content: ' '
+  - delay: 351
+    content: a
+  - delay: 152
+    content: p
+  - delay: 152
+    content: p
+  - delay: 406
+    content: "\r\n"
+  - delay: 2347
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mSelect your VM:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> (us-east1-b) app-useast-19kz\e[0m\r\n\e[1;99m  (us-east1-b) app-useast-ao71\e[0m\r\n\e[?25l"
+  - delay: 1349
+    content: "\e[?25h\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your VM:\e[0m\e[36m (us-east1-b) app-useast-19kz\e[0m\r\nUsing silly-global-project-ids as selected project.\r\nUsing app-useast-19kz as selected VM in zone us-east1-b.\r\n"
+  - delay: 3281
+    content: "Linux app-useast-19kz 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64\r\n\r\nThe programs included with the Debian GNU/Linux system are free software;\r\nthe exact distribution terms for each program are described in the\r\nindividual files in /usr/share/doc/*/copyright."
+  - delay: 31
+    content: "\r\n\r\nDebian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent\r\npermitted by applicable law.\r\nLast login: Tue Apr  2 03:12:55 2019 from 35.235.240.0\r\r\n\e]0;regner@app-useast-19kz: ~\a\e[01;32mregner@app-useast-19kz\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 1346
+    content: "logout\r\nConnection to compute.8316295205482360324 closed.\r\r\n"
+  - delay: 98
+    content: 'regners-macbook:~ regner$ '
+  - delay: 1009
+    content: "logout\r\n"
