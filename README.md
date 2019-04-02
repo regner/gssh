@@ -21,4 +21,5 @@ releases from the [releases](https://github.com/regner/gssh/releases/latest) pag
 * [ ] Add ability to disable iap tunnel
 * [ ] Create a preview video/gif/something to demo gssh
 * [ ] Add release to brew
-* [ ] Add docs for installing gssh
+* [ ] Add test coverage for vms.go
+* [ ] Add test coverage for main.go
