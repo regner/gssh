@@ -11,10 +11,14 @@ type projectDetails struct {
 	ProjectID string `json:"projectID"`
 }
 
-func getGcloudProjects() (projects []projectDetails) {
+func getGcloudProjects() (projects []projectDetails, err error) {
 	cmd := execCommand("gcloud", "projects", "list", "--format=json")
 
-	output, _ := cmd.CombinedOutput()
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return
+	}
+
 	json.Unmarshal([]byte(output), &projects)
 
 	return
@@ -41,7 +45,7 @@ func selectProject(projects []projectDetails) (project projectDetails) {
 		PageSize: pageSize,
 	}
 
-	survey.AskOne(prompt, &project, nil)
+	survey.AskOne(prompt, &answer, nil)
 
 	project = stringToProjectDetails(answer)
 

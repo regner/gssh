@@ -19,7 +19,7 @@ func TestGetGcloudProjects(t *testing.T) {
 		},
 	}
 
-	projects := getGcloudProjects()
+	projects, _ := getGcloudProjects()
 
 	assert.Equal(t, expectedProjects, projects)
 }
@@ -42,6 +42,35 @@ func TestHelperProjects(t *testing.T) {
 	fmt.Fprintf(os.Stdout, "[{\"projectID\":\"testing\"}]")
 
 	os.Exit(0)
+}
+
+func TestGrtGcloudProjectsError(t *testing.T) {
+	execCommand = fakeProjectsCommandError
+	defer func() { execCommand = exec.Command }()
+
+	_, err := getGcloudProjects()
+
+	assert.NotNil(t, err)
+}
+
+func fakeProjectsCommandError(command string, args ...string) (cmd *exec.Cmd) {
+	cs := []string{"-test.run=TestHelperProjectsError", "--", command}
+	cs = append(cs, args...)
+
+	cmd = exec.Command(os.Args[0], cs...)
+	cmd.Env = []string{"GO_WANT_HELPER_PROCESS=1"}
+
+	return
+}
+
+func TestHelperProjectsError(t *testing.T) {
+	if os.Getenv("GO_WANT_HELPER_PROCESS") != "1" {
+		return
+	}
+
+	fmt.Fprintf(os.Stderr, "This is an error. Handle me!")
+
+	os.Exit(1)
 }
 
 func TestFilterProjects(t *testing.T) {

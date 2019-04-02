@@ -14,12 +14,16 @@ type vmDetails struct {
 	Zone string `json:"zone"`
 }
 
-func getGcloudVMs(project projectDetails) (vms []vmDetails) {
+func getGcloudVMs(project projectDetails) (vms []vmDetails, err error) {
 	projectArg := fmt.Sprintf("--project=%s", project.ProjectID)
 
 	cmd := execCommand("gcloud", "compute", "instances", "list", projectArg, "--format=json")
 
-	output, _ := cmd.CombinedOutput()
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return
+	}
+
 	json.Unmarshal([]byte(output), &vms)
 
 	for i, vm := range vms {

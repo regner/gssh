@@ -38,7 +38,12 @@ func main() {
 	var selectedProject projectDetails
 	var selectedVM vmDetails
 
-	projects := getGcloudProjects()
+	projects, err := getGcloudProjects()
+	if err != nil {
+		fmt.Print(err)
+		os.Exit(1)
+	}
+
 	filteredProjects := filterProjects(projects, projectFilter)
 
 	if len(filteredProjects) == 0 {
@@ -50,7 +55,12 @@ func main() {
 		selectedProject = selectProject(filteredProjects)
 	}
 
-	vms := getGcloudVMs(selectedProject)
+	vms, err := getGcloudVMs(selectedProject)
+	if err != nil {
+		fmt.Print(err)
+		os.Exit(1)
+	}
+
 	filteredVMs := filterVMs(vms, vmFilter)
 
 	if len(filteredVMs) == 0 {
