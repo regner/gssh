@@ -72,7 +72,7 @@ func main() {
 		selectedVM = selectVM(filteredVMs)
 	}
 
-	fmt.Printf("Using %s as selected project.\n", selectedProject)
+	fmt.Printf("Using %s as selected project.\n", selectedProject.ProjectID)
 	fmt.Printf("Using %s as selected VM in zone %s.\n", selectedVM.Name, selectedVM.Zone)
 
 	args := buildGcloudArgs(selectedVM, selectedProject)
