@@ -3,6 +3,10 @@
 gssh is meant to make using the gcloud ssh command easier by eliminating the need to
 know the complete name of a given VM and it's zone.
 
+Normally the gcloud SDK would require a command similar to `gcloud beta compute ssh
+--tunnel-through-iap --project some-globally-unique-id --zone us-west1-a some-instance-name-4kcq`
+
+Here is an example of a similar connection with gssh:
 ![Preview](terminalizer/preview.gif)
 
 gssh was built for my needs specifically which is why flags such as `--tunnel-through-iap`
