@@ -20,7 +20,7 @@ jobs:
     - store_artifacts:
         path: "/tmp/artifacts"
     - run:
-        name: Upload Coverage Results
+        name: "Upload Coverage Results"
         command: |
           bash <(curl -s https://codecov.io/bash) -f c.out  -n ${CIRCLE_BUILD_NUM} -t ${CODECOV_TOKEN} -y .codecov.yml
 
@@ -33,7 +33,6 @@ workflows:
         requires:
         - "test"
         filters:
-          # Run only on tags, ignore branches
           tags:
             only: /^v.*/
           branches:
