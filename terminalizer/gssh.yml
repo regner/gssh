@@ -18,12 +18,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 170
+  cols: 140
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 35
+  rows: 25
 
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -111,181 +111,181 @@ config:
 
 # Records, feel free to edit them
 records:
-  - delay: 500
+  - delay: 90
     content: "\e[?1034hregners-macbook:~ regner$ "
-  - delay: 904
+  - delay: 90
     content: '#'
-  - delay: 280
+  - delay: 90
     content: ' '
-  - delay: 336
+  - delay: 90
     content: g
-  - delay: 448
+  - delay: 90
     content: s
-  - delay: 193
+  - delay: 90
     content: s
-  - delay: 311
+  - delay: 90
     content: h
-  - delay: 247
+  - delay: 90
     content: ' '
-  - delay: 338
+  - delay: 90
     content: c
-  - delay: 104
+  - delay: 90
     content: a
-  - delay: 127
+  - delay: 90
     content: 'n'
-  - delay: 167
+  - delay: 90
     content: ' '
-  - delay: 177
+  - delay: 90
     content: b
-  - delay: 384
+  - delay: 90
     content: e
-  - delay: 232
+  - delay: 90
     content: ' '
-  - delay: 256
+  - delay: 90
     content: u
-  - delay: 120
+  - delay: 90
     content: s
-  - delay: 88
+  - delay: 90
     content: e
-  - delay: 232
+  - delay: 90
     content: d
-  - delay: 224
+  - delay: 90
     content: ' '
-  - delay: 224
+  - delay: 90
     content: w
-  - delay: 129
+  - delay: 90
     content: i
-  - delay: 126
+  - delay: 90
     content: t
-  - delay: 94
+  - delay: 90
     content: h
-  - delay: 235
+  - delay: 90
     content: ' '
-  - delay: 224
+  - delay: 90
     content: 'n'
-  - delay: 72
+  - delay: 90
     content: o
-  - delay: 192
+  - delay: 90
     content: ' '
-  - delay: 99
+  - delay: 90
     content: a
-  - delay: 68
+  - delay: 90
     content: r
-  - delay: 175
+  - delay: 90
     content: g
-  - delay: 105
+  - delay: 90
     content: u
-  - delay: 210
+  - delay: 90
     content: m
-  - delay: 126
+  - delay: 90
     content: e
-  - delay: 118
+  - delay: 90
     content: 'n'
-  - delay: 89
+  - delay: 90
     content: t
-  - delay: 81
+  - delay: 90
     content: s
-  - delay: 160
+  - delay: 90
     content: ' '
-  - delay: 80
+  - delay: 90
     content: a
-  - delay: 135
+  - delay: 90
     content: 'n'
-  - delay: 33
+  - delay: 90
     content: d
-  - delay: 153
+  - delay: 90
     content: ' '
-  - delay: 79
+  - delay: 90
     content: w
-  - delay: 112
+  - delay: 90
     content: i
-  - delay: 208
+  - delay: 90
     content: l
-  - delay: 145
+  - delay: 90
     content: l
-  - delay: 131
+  - delay: 90
     content: ' '
-  - delay: 204
+  - delay: 90
     content: p
-  - delay: 185
+  - delay: 90
     content: r
-  - delay: 151
+  - delay: 90
     content: o
-  - delay: 77
+  - delay: 90
     content: m
-  - delay: 118
+  - delay: 90
     content: p
-  - delay: 179
+  - delay: 90
     content: t
-  - delay: 315
+  - delay: 90
     content: ' '
-  - delay: 406
+  - delay: 90
     content: f
-  - delay: 160
+  - delay: 90
     content: o
-  - delay: 121
+  - delay: 90
     content: r
-  - delay: 119
+  - delay: 90
     content: ' '
-  - delay: 122
+  - delay: 90
     content: b
-  - delay: 87
+  - delay: 90
     content: o
-  - delay: 151
+  - delay: 90
     content: t
-  - delay: 81
+  - delay: 90
     content: h
-  - delay: 182
+  - delay: 90
     content: ' '
-  - delay: 115
+  - delay: 90
     content: t
-  - delay: 79
+  - delay: 90
     content: h
-  - delay: 95
+  - delay: 90
     content: e
-  - delay: 104
+  - delay: 90
     content: ' '
-  - delay: 144
+  - delay: 90
     content: p
-  - delay: 98
+  - delay: 90
     content: r
-  - delay: 123
+  - delay: 90
     content: o
-  - delay: 53
+  - delay: 90
     content: j
-  - delay: 101
+  - delay: 90
     content: e
-  - delay: 65
+  - delay: 90
     content: c
-  - delay: 209
+  - delay: 90
     content: t
-  - delay: 120
+  - delay: 90
     content: ' '
-  - delay: 151
+  - delay: 90
     content: a
-  - delay: 129
+  - delay: 90
     content: 'n'
-  - delay: 77
+  - delay: 90
     content: d
-  - delay: 139
+  - delay: 90
     content: ' '
-  - delay: 640
+  - delay: 90
     content: v
-  - delay: 167
+  - delay: 90
     content: m
-  - delay: 465
+  - delay: 1282
     content: "\r\nregners-macbook:~ regner$ "
-  - delay: 560
+  - delay: 90
     content: g
-  - delay: 312
+  - delay: 90
     content: s
-  - delay: 152
+  - delay: 90
     content: s
-  - delay: 211
+  - delay: 90
     content: h
   - delay: 300
     content: "\r\n"
-  - delay: 982
+  - delay: 1282
     content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mSelect your project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> super-secret-vault-project\e[0m\r\n\e[1;99m  silly-global-project-ids\e[0m\r\n\e[1;99m  some-other-project\e[0m\r\n\e[?25l"
   - delay: 1260
     content: "\e[0G\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1F\e[2K\e[1;92m? \e[0m\e[1;99mSelect your project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;99m  super-secret-vault-project\e[0m\r\n\e[1;36m> silly-global-project-ids\e[0m\r\n\e[1;99m  some-other-project\e[0m\r\n"
@@ -307,319 +307,319 @@ records:
     content: 'regners-macbook:~ regner$ '
   - delay: 1389
     content: '#'
-  - delay: 349
+  - delay: 90
     content: ' '
-  - delay: 176
+  - delay: 90
     content: g
-  - delay: 312
+  - delay: 90
     content: s
-  - delay: 168
+  - delay: 90
     content: s
-  - delay: 215
+  - delay: 90
     content: h
-  - delay: 286
+  - delay: 90
     content: ' '
-  - delay: 298
+  - delay: 90
     content: c
-  - delay: 121
+  - delay: 90
     content: a
-  - delay: 78
+  - delay: 90
     content: 'n'
-  - delay: 177
+  - delay: 90
     content: ' '
-  - delay: 102
+  - delay: 90
     content: a
-  - delay: 104
+  - delay: 90
     content: l
-  - delay: 127
+  - delay: 90
     content: s
   - delay: 90
     content: o
-  - delay: 160
+  - delay: 90
     content: ' '
-  - delay: 96
+  - delay: 90
     content: b
-  - delay: 105
+  - delay: 90
     content: e
-  - delay: 101
+  - delay: 90
     content: ' '
-  - delay: 210
+  - delay: 90
     content: p
-  - delay: 121
+  - delay: 90
     content: r
-  - delay: 117
+  - delay: 90
     content: o
-  - delay: 1393
+  - delay: 90
     content: v
-  - delay: 135
+  - delay: 90
     content: i
-  - delay: 131
+  - delay: 90
     content: d
-  - delay: 176
+  - delay: 90
     content: e
-  - delay: 184
+  - delay: 90
     content: d
-  - delay: 111
+  - delay: 90
     content: ' '
-  - delay: 432
+  - delay: 90
     content: f
-  - delay: 121
+  - delay: 90
     content: i
-  - delay: 111
+  - delay: 90
     content: l
-  - delay: 39
+  - delay: 90
     content: t
-  - delay: 127
+  - delay: 90
     content: e
   - delay: 90
     content: r
-  - delay: 96
+  - delay: 90
     content: s
-  - delay: 174
+  - delay: 90
     content: ' '
-  - delay: 120
+  - delay: 90
     content: f
-  - delay: 179
+  - delay: 90
     content: o
-  - delay: 134
+  - delay: 90
     content: r
-  - delay: 201
+  - delay: 90
     content: ' '
-  - delay: 367
+  - delay: 90
     content: b
-  - delay: 117
+  - delay: 90
     content: o
-  - delay: 172
+  - delay: 90
     content: t
-  - delay: 120
+  - delay: 90
     content: h
-  - delay: 184
+  - delay: 90
     content: ' '
-  - delay: 70
+  - delay: 90
     content: t
-  - delay: 104
+  - delay: 90
     content: h
-  - delay: 98
+  - delay: 90
     content: e
-  - delay: 113
+  - delay: 90
     content: ' '
-  - delay: 193
+  - delay: 90
     content: p
-  - delay: 115
+  - delay: 90
     content: r
-  - delay: 186
+  - delay: 90
     content: o
-  - delay: 881
+  - delay: 90
     content: j
-  - delay: 184
+  - delay: 90
     content: e
-  - delay: 79
+  - delay: 90
     content: c
-  - delay: 216
+  - delay: 90
     content: t
-  - delay: 104
+  - delay: 90
     content: ' '
-  - delay: 97
+  - delay: 90
     content: a
-  - delay: 128
+  - delay: 90
     content: 'n'
-  - delay: 64
+  - delay: 90
     content: d
-  - delay: 168
+  - delay: 90
     content: ' '
-  - delay: 685
+  - delay: 90
     content: "\b\e[K"
-  - delay: 238
+  - delay: 90
     content: /
-  - delay: 483
+  - delay: 90
     content: o
-  - delay: 102
+  - delay: 90
     content: r
-  - delay: 404
+  - delay: 90
     content: ' '
-  - delay: 1031
+  - delay: 90
     content: t
-  - delay: 86
+  - delay: 90
     content: h
-  - delay: 171
+  - delay: 90
     content: e
-  - delay: 93
+  - delay: 90
     content: ' '
-  - delay: 275
+  - delay: 90
     content: v
-  - delay: 111
+  - delay: 90
     content: m
   - delay: 535
     content: "\r\nregners-macbook:~ regner$ "
   - delay: 1344
     content: '#'
-  - delay: 215
+  - delay: 90
     content: ' '
-  - delay: 195
+  - delay: 90
     content: i
-  - delay: 14
+  - delay: 90
     content: f
-  - delay: 221
+  - delay: 90
     content: ' '
-  - delay: 314
+  - delay: 90
     content: a
-  - delay: 151
+  - delay: 90
     content: ' '
-  - delay: 178
+  - delay: 90
     content: f
-  - delay: 136
+  - delay: 90
     content: i
-  - delay: 80
+  - delay: 90
     content: l
-  - delay: 104
+  - delay: 90
     content: t
-  - delay: 136
+  - delay: 90
     content: e
-  - delay: 64
+  - delay: 90
     content: r
-  - delay: 78
+  - delay: 90
     content: ' '
-  - delay: 162
+  - delay: 90
     content: r
-  - delay: 112
+  - delay: 90
     content: e
-  - delay: 64
+  - delay: 90
     content: s
-  - delay: 153
+  - delay: 90
     content: u
-  - delay: 76
+  - delay: 90
     content: l
-  - delay: 75
+  - delay: 90
     content: t
-  - delay: 41
+  - delay: 90
     content: s
-  - delay: 125
+  - delay: 90
     content: ' '
-  - delay: 145
+  - delay: 90
     content: i
-  - delay: 64
+  - delay: 90
     content: 'n'
-  - delay: 168
+  - delay: 90
     content: ' '
-  - delay: 159
+  - delay: 90
     content: o
-  - delay: 72
+  - delay: 90
     content: 'n'
-  - delay: 151
+  - delay: 90
     content: l
-  - delay: 138
+  - delay: 90
     content: 'y'
-  - delay: 276
+  - delay: 90
     content: ' '
-  - delay: 468
+  - delay: 90
     content: o
-  - delay: 79
+  - delay: 90
     content: 'n'
-  - delay: 735
+  - delay: 90
     content: e
-  - delay: 184
+  - delay: 90
     content: ' '
-  - delay: 202
+  - delay: 90
     content: m
-  - delay: 65
+  - delay: 90
     content: a
-  - delay: 93
+  - delay: 90
     content: t
-  - delay: 242
+  - delay: 90
     content: c
-  - delay: 244
+  - delay: 90
     content: h
-  - delay: 314
+  - delay: 90
     content: ' '
-  - delay: 446
+  - delay: 90
     content: t
-  - delay: 116
+  - delay: 90
     content: h
-  - delay: 48
+  - delay: 90
     content: a
-  - delay: 62
+  - delay: 90
     content: t
-  - delay: 122
+  - delay: 90
     content: ' '
-  - delay: 424
+  - delay: 90
     content: m
-  - delay: 100
+  - delay: 90
     content: a
-  - delay: 68
+  - delay: 90
     content: t
-  - delay: 199
+  - delay: 90
     content: c
-  - delay: 130
+  - delay: 90
     content: h
-  - delay: 215
+  - delay: 90
     content: ' '
-  - delay: 80
+  - delay: 90
     content: w
-  - delay: 115
+  - delay: 90
     content: i
-  - delay: 197
+  - delay: 90
     content: l
-  - delay: 135
+  - delay: 90
     content: l
-  - delay: 159
+  - delay: 90
     content: ' '
-  - delay: 197
+  - delay: 90
     content: b
-  - delay: 103
+  - delay: 90
     content: e
-  - delay: 134
+  - delay: 90
     content: ' '
-  - delay: 189
+  - delay: 90
     content: u
-  - delay: 120
+  - delay: 90
     content: s
-  - delay: 58
+  - delay: 90
     content: e
-  - delay: 224
+  - delay: 90
     content: d
   - delay: 1490
     content: "\r\nregners-macbook:~ regner$ "
   - delay: 1219
     content: g
-  - delay: 236
+  - delay: 90
     content: s
-  - delay: 156
+  - delay: 90
     content: s
-  - delay: 191
+  - delay: 90
     content: h
-  - delay: 209
+  - delay: 90
     content: ' '
-  - delay: 324
+  - delay: 90
     content: '-'
-  - delay: 299
+  - delay: 90
     content: p
-  - delay: 226
+  - delay: 90
     content: ' '
-  - delay: 510
+  - delay: 90
     content: g
-  - delay: 97
+  - delay: 90
     content: l
-  - delay: 177
+  - delay: 90
     content: o
-  - delay: 143
+  - delay: 90
     content: b
-  - delay: 112
+  - delay: 90
     content: a
-  - delay: 168
+  - delay: 90
     content: l
-  - delay: 571
+  - delay: 90
     content: ' '
-  - delay: 396
+  - delay: 90
     content: '-'
-  - delay: 384
+  - delay: 90
     content: m
-  - delay: 258
+  - delay: 90
     content: ' '
-  - delay: 351
+  - delay: 90
     content: a
-  - delay: 152
+  - delay: 90
     content: p
-  - delay: 152
+  - delay: 90
     content: p
   - delay: 406
     content: "\r\n"
