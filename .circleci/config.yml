@@ -14,6 +14,7 @@ jobs:
     - checkout
     - run: "go mod download"
     - run: "mkdir -p /tmp/artifacts"
+    - run: "! go fmt ./... 2>&1 | read"
     - run: "go test -coverprofile=c.out"
     - run: "go tool cover -html=c.out -o coverage.html"
     - run: "mv coverage.html /tmp/artifacts"
